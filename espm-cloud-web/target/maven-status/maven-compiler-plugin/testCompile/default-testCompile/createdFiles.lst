@@ -1,0 +1,14 @@
+com\sap\espm\model\web\ProductCategoryODataIT.class
+com\sap\espm\model\web\SalesOrderItemODataIT.class
+com\sap\espm\model\web\util\XMLParser.class
+com\sap\espm\model\web\AbstractODataIT.class
+com\sap\espm\model\web\ProductODataIT.class
+com\sap\espm\model\web\util\StreamHelper.class
+com\sap\espm\model\web\CustomerODataIT.class
+com\sap\espm\model\web\SalesOrderHeaderODataIT.class
+com\sap\espm\model\web\util\HttpResponse.class
+com\sap\espm\model\web\SupplierODataIT.class
+com\sap\espm\model\web\util\RequestExecutionHelper.class
+com\sap\espm\model\web\AllODataTests.class
+com\sap\espm\model\web\CustomerReviewOdataIT.class
+com\sap\espm\model\web\StockODataIT.class

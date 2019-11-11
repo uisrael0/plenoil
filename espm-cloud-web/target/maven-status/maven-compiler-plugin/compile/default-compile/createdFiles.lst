@@ -1,0 +1,9 @@
+com\sap\espm\model\exception\BaseESPMRunTimeException.class
+com\sap\espm\model\web\JpaEntityManagerFactory.class
+com\sap\espm\model\web\EspmProcessingExtension.class
+com\sap\espm\model\web\StartupServlet.class
+com\sap\espm\model\web\EspmServiceFactoryFilter.class
+com\sap\espm\model\web\EspmServiceFactory.class
+com\sap\espm\model\function\impl\CustomerReviewProcessor.class
+com\sap\espm\model\function\impl\CustomerProcessor.class
+com\sap\espm\model\function\impl\SalesOrderProcessor.class
