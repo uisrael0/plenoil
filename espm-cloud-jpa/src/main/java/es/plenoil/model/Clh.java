@@ -5,7 +5,11 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "CLH")
-public class Clh implements SerialClh {
+@NamedQueries({ 
+	@NamedQuery(name = "Proveedor.getAllClhs", query = "SELECT c FROM Clh c"), 
+	@NamedQuery(name = "Proveedor.getClhByClhId", query = "SELECT c FROM Clh c where c.clhId = :clhId") 
+})
+public class Clh implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -14,7 +18,7 @@ public class Clh implements SerialClh {
 
 	@Id
 	@Column(name = "CLH_SAP_ID")
-	privaClh clhId;
+	private long clhId;
 	@Column(name = "CLH_CODE")
 	private String code;
 	@Column(name = "CLH_DESC")

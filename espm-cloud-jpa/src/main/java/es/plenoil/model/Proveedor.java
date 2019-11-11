@@ -1,16 +1,16 @@
 package es.plenoil.model;
 
 import java.io.Serializable;
-import javax.persistence.*;
-import static javax.persistence.GenerationType.SEQUENCE;
-import static javax.persistence.GenerationType.TABLE;
-import static javax.persistence.LockModeType.NONE;
-import static javax.persistence.LockModeType.OPTIMISTIC;
-import static javax.persistence.LockModeType.OPTIMISTIC_FORCE_INCREMENT;
-import static javax.persistence.LockModeType.PESSIMISTIC_FORCE_INCREMENT;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
 
 @Entity
-@Table(name = "Proveedor")
+@Table(name = "PROVEEDOR")
 @NamedQueries({ 
 	@NamedQuery(name = "Proveedor.getAllProveedores", query = "SELECT p FROM Proveedor p"), 
 	@NamedQuery(name = "Proveedor.getProveedorByProveedorId", query = "SELECT p FROM Proveedor p where p.proveedorId = :proveedorId") 
@@ -24,14 +24,12 @@ public class Proveedor implements Serializable {
 
 	@Id
 	@Column(name = "PROV_SAP_ID")
-	@GeneratedValue(strategy = TABLE)
 	private long proveedorId;
 	@Column(name = "PROV_CODE")
 	private String code;
 	@Column(name = "PROV_DESC")
 	private String description;
 	private String image;
-
 	public long getProveedorId() {
 		return proveedorId;
 	}
