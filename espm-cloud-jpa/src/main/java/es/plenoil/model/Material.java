@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "MATERIAL")
 @NamedQueries({ 
-	@NamedQuery(name = "Material.getAllMateriales", query = "SELECT m FROM Materiales m"), 
+	@NamedQuery(name = "Material.getAllMateriales", query = "SELECT m FROM Material m"), 
 	@NamedQuery(name = "Material.getMaterialesByMaterialId", query = "SELECT m FROM Material m where m.materialId = :materialId"),
 })
 

@@ -16,7 +16,7 @@
 		<class>com.sap.espm.model.Supplier</class>
 		<class>es.plenoil.model.Clh</class>
 		<class>es.plenoil.model.Material</class>
-		<class>es.plenoil.model.Precio</class>
+		<class>es.plenoil.model.Precios</class>
 		<class>es.plenoil.model.Proveedor</class>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>

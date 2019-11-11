@@ -12,28 +12,27 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
- * Entity implementation class for Entity: Precio
+ * Entity implementation class for Entity: Precios
  *
  */
 @Entity
 @Table(name = "PRECIOS")
 @NamedQueries({ 
 	@NamedQuery(name = "Precios.getAllPrecios", query = "SELECT p FROM Precios p"), 
-	@NamedQuery(name = "Precios.getPreciosByProveedorId", query = "SELECT p FROM Precios p where p.proveedorId = :proveedorId"),
-	@NamedQuery(name = "Precios.getPreciosByProveedorIdAndClhId", query = "SELECT p FROM Precios p where p.proveedorId = :proveedorId AND p.clhId = :clhId"),
-	@NamedQuery(name = "Precios.getPreciosByProveedorIdAndClhIdAndFecha", query = "SELECT p FROM Precios p where p.proveedorId = :proveedorId AND p.clhId = :clhId AND p.fecha = :fecha")
+	@NamedQuery(name = "Precios.getPreciosByProveedorId", query = "SELECT p FROM Precios p where p.proveedor.proveedorId = :proveedorId"),
+	@NamedQuery(name = "Precios.getPreciosByProveedorIdAndClhId", query = "SELECT p FROM Precios p where p.proveedor.proveedorId = :proveedorId AND p.clh.clhId = :clhId"),
+	@NamedQuery(name = "Precios.getPreciosByProveedorIdAndClhIdAndFecha", query = "SELECT p FROM Precios p where p.proveedor.proveedorId = :proveedorId AND p.clh.clhId = :clhId AND p.fecha = :fecha")
 })
 
-public class Precio implements Serializable {
+public class Precios implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	public Precio() {
+	public Precios() {
 	}
 	
 	@Id
 	@Column(name = "PREC_ID")
-	@GeneratedValue(strategy = TABLE)
 	private String precioId;
 	@Column(name = "PREC_FECHA")
 	private String fecha;
