@@ -68,7 +68,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -97,7 +97,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -131,7 +131,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -195,7 +195,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -249,7 +249,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -317,7 +317,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -377,7 +377,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product db id.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -435,7 +435,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product category .
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -467,7 +467,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key product category.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -543,7 +543,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key of customer review entity in db.
 	 * @return the true/false status of the success/failure of operation.
 	 */
@@ -588,7 +588,7 @@ public class TestFactory {
 	 * 
 	 * @param em
 	 *            the entity manager instance
-	 * @param id
+	 * @param clhId
 	 *            the primary key of customer review entity in db.
 	 * @return the true/false status of the success/failure of operation.
 	 */

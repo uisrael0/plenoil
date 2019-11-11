@@ -11,17 +11,6 @@
 	</entity>
 
 	<entity>
-		<entity-name>com.sap.espm.model.PurchaseOrderItem</entity-name>
-		<entity-width>145</entity-width>
-		<entity-height>261</entity-height>
-		<entity-X-Coordinate>20</entity-X-Coordinate>
-		<entity-Y-Coordinate>367</entity-Y-Coordinate>
-		<primary-collapsed>true</primary-collapsed>
-		<relation-collapsed>false</relation-collapsed>
-		<basic-collapsed>false</basic-collapsed>
-	</entity>
-
-	<entity>
 		<entity-name>com.sap.espm.model.SalesOrderItem</entity-name>
 		<entity-width>120</entity-width>
 		<entity-height>281</entity-height>
@@ -33,44 +22,11 @@
 	</entity>
 
 	<entity>
-		<entity-name>com.sap.espm.model.PurchaseOrderHeader</entity-name>
-		<entity-width>145</entity-width>
-		<entity-height>226</entity-height>
-		<entity-X-Coordinate>20</entity-X-Coordinate>
-		<entity-Y-Coordinate>12</entity-Y-Coordinate>
-		<primary-collapsed>false</primary-collapsed>
-		<relation-collapsed>false</relation-collapsed>
-		<basic-collapsed>false</basic-collapsed>
-	</entity>
-
-	<entity>
-		<entity-name>com.sap.espm.model.Stock</entity-name>
-		<entity-width>120</entity-width>
-		<entity-height>206</entity-height>
-		<entity-X-Coordinate>390</entity-X-Coordinate>
-		<entity-Y-Coordinate>137</entity-Y-Coordinate>
-		<primary-collapsed>false</primary-collapsed>
-		<relation-collapsed>false</relation-collapsed>
-		<basic-collapsed>false</basic-collapsed>
-	</entity>
-
-	<entity>
 		<entity-name>com.sap.espm.model.Product</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>446</entity-height>
+		<entity-height>466</entity-height>
 		<entity-X-Coordinate>218</entity-X-Coordinate>
 		<entity-Y-Coordinate>277</entity-Y-Coordinate>
-		<primary-collapsed>false</primary-collapsed>
-		<relation-collapsed>false</relation-collapsed>
-		<basic-collapsed>false</basic-collapsed>
-	</entity>
-
-	<entity>
-		<entity-name>com.sap.espm.model.Supplier</entity-name>
-		<entity-width>120</entity-width>
-		<entity-height>248</entity-height>
-		<entity-X-Coordinate>218</entity-X-Coordinate>
-		<entity-Y-Coordinate>-30</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -90,9 +46,75 @@
 	<entity>
 		<entity-name>com.sap.espm.model.SalesOrderHeader</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>306</entity-height>
+		<entity-height>326</entity-height>
 		<entity-X-Coordinate>530</entity-X-Coordinate>
 		<entity-Y-Coordinate>21</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.sap.espm.model.Supplier</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>248</entity-height>
+		<entity-X-Coordinate>218</entity-X-Coordinate>
+		<entity-Y-Coordinate>-30</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.sap.espm.model.Stock</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>390</entity-X-Coordinate>
+		<entity-Y-Coordinate>137</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>es.plenoil.model.Proveedor</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>148</entity-height>
+		<entity-X-Coordinate>-240</entity-X-Coordinate>
+		<entity-Y-Coordinate>-10</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>es.plenoil.model.Clh</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>128</entity-height>
+		<entity-X-Coordinate>-240</entity-X-Coordinate>
+		<entity-Y-Coordinate>176</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>es.plenoil.Material</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>128</entity-height>
+		<entity-X-Coordinate>-240</entity-X-Coordinate>
+		<entity-Y-Coordinate>342</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>es.plenoil.model.Material</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>128</entity-height>
+		<entity-X-Coordinate>-193</entity-X-Coordinate>
+		<entity-Y-Coordinate>362</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
